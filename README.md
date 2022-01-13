@@ -17,6 +17,12 @@ cmake ..
 make
 ```
 
+## Utility
+
+- This smart contract will destroy all NFTs transferred to it.
+- Accepts SimpleAssets and Atomic format NFTs (WAX Blockchain).
+- Destroying NFTs is irreversible!
+
 ## License
 
 [MIT](./LICENSE)

@@ -12,10 +12,16 @@ public:
    using contract::contract;
 
    [[eosio::on_notify("atomicassets::transfer")]] void
-   gettransfer(
+   gettransferA(
        name from,
        name to,
        vector<uint64_t> asset_ids,
+       string memo);
+   [[eosio::on_notify("simpleassets::transfer")]] void
+   gettransferS(
+       name from,
+       name to,
+       vector<uint64_t> assetids,
        string memo);
 
 private:
