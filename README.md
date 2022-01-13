@@ -2,7 +2,7 @@
 # EOSIO Singleton Tables
 
 This is an exercise to explain how to create and modify singleton tables in eosio smart contracts. 
-Explanations: [Using eosio singleton tables (in WAX Blockchain)]()
+Explanations: [Using eosio singleton tables (in WAX Blockchain)](https://steemit.com/witness-category/@marcosdk/using-eosio-singleton-tables-on-wax-blockchain)
 
 Created by Marcos DK - 3DK Render WAX Guild
 
